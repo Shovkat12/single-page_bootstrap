@@ -173,6 +173,12 @@ body {
     border-radius: 64px;
     width: 64px;
     height: 64px;
+    transition: .4s;
+}
+.works-button:hover{
+    background-color: var(--Galactic-Blue);
+    color: white;
+    border: var(--Galactic-Blue);
 }
 .main-call{
     background-color: var(--Black);
@@ -193,4 +199,10 @@ body {
 }
 footer{
     margin-top: 56px;
+}
+.carousel {
+    column-gap: 30px;
+}
+.carousel>img{
+    width: calc(100%/3);
 }
